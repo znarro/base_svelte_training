@@ -1,0 +1,8 @@
+{
+  "development": {
+    "SOME_API": ""
+  },
+  "production": {
+    "SOME_API": ""
+  }
+}

@@ -1,0 +1,12 @@
+.mdc-button {
+  min-height: 40px;
+  margin: 0;
+  box-shadow: none;
+
+  .mdc-button__label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: 0;
+  }
+}

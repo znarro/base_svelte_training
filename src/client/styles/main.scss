@@ -1,0 +1,13 @@
+/* SASS PRINCIPAL */
+// Adaptación de la Arquitectura 7-1 (https://sass-guidelin.es/#architecture)
+// Importar aquí los partials
+
+// Abstracts
+@import "./abstracts/_variables";
+
+// Base
+@import "./base/_reset";
+@import "./base/_basics";
+
+// Vendors
+@import "./vendors/_material";

@@ -1,0 +1,23 @@
+/* MATERIAL COMPONENTS */
+// IMPORTANTE:
+// - Las reglas @use deben ir primero que los @include
+// - Un alias (as) al usar @use, evita conflictos entre módulos con mismo nombre
+
+@use "@material/theme" with (
+  $primary: $bs-primary,
+  $on-primary: #fff,
+  $secondary: $bs-primary,
+  $on-secondary: $bs-background,
+  $error: #b00020,
+  $on-error: #fff,
+  $surface: #fff,
+  $on-surface: #000000,
+  $background: #fff
+);
+
+@use "@material/typography" with (
+  $font-family: unquote("$bs-font-family")
+);
+
+/* MDC Button */
+@use "@material/button/styles" as button;
